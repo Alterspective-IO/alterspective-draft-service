@@ -1,0 +1,7 @@
+{
+  "name": "acknowledgement-of-service",
+  "displayName": "Acknowledgement of Service",
+  "subject": "Acknowledgement of Service — {{matterRef}} — {{claimantName}} v {{defendantName}}",
+  "toRecipients": [],
+  "body": "<p>{{date}}</p>\n\n<p>{{recipientName}}<br>\n{{recipientFirm}}</p>\n\n<p>Dear {{recipientName}},</p>\n\n<p><strong>Re: {{claimantName}} v {{defendantName}} — {{matterRef}}</strong></p>\n\n<p>We act for {{defendantName}} ({{clientRole}}) in the above matter.</p>\n\n<p>We acknowledge receipt of service of the following documents on {{serviceDate}}:</p>\n\n<ul>\n<li>{{document1}}</li>{{#document2}}\n<li>{{document2}}</li>{{/document2}}\n</ul>\n\n<p>We will take instructions from our client and revert shortly.</p>\n\n<p>Yours faithfully,</p>\n\n<p><strong>{{handlingLawyerName}}</strong><br>\n{{handlingLawyerTitle}}<br>\nSparke Helmore Lawyers<br>\nRef: {{matterRef}}</p>"
+}

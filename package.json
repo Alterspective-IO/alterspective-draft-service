@@ -1,0 +1,19 @@
+{
+  "name": "alterspective-draft-service",
+  "version": "1.0.0",
+  "description": "Creates Outlook draft emails via Microsoft Graph API for Sharedo widget integration",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^2.16.2",
+    "express": "^4.19.2",
+    "express-validator": "^7.2.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "notice-of-address",
+  "displayName": "Notice of Address for Service",
+  "subject": "Notice of Address for Service — {{matterRef}} — {{claimantName}} v {{defendantName}}",
+  "toRecipients": [],
+  "body": "<p>Dear {{recipientName}},</p>\n\n<p>We act for {{clientName}} in the above matter.</p>\n\n<p>We write to advise you that our address for service in this matter is:</p>\n\n<p><strong>Sparke Helmore Lawyers</strong><br>\nLevel 29, 25 Martin Place<br>\nSydney NSW 2000<br>\nDX 296 Sydney<br>\nTel: +61 2 9260 2500<br>\nFax: +61 2 9260 2555<br>\nRef: {{matterRef}} / {{handlingLawyerName}}</p>\n\n<p>Please direct all future correspondence to this office.</p>\n\n<p>Yours faithfully,</p>\n\n<p><strong>{{handlingLawyerName}}</strong><br>\n{{handlingLawyerTitle}}<br>\nSparke Helmore Lawyers</p>"
+}
